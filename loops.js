@@ -22,3 +22,8 @@ function doWhileLoop(array){
   }while((maybeTrue()) and (array.length>0))
   return(array)
 }
+
+function maybeTrue() {
+  return (Math.random() >= 0.5)
+}
+
